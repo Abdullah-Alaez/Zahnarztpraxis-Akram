@@ -99,14 +99,14 @@
 
   .carousel-inner > .item > img {
     width: 100%; /* Bild größe */
-    height: 100%; /* Bild länge */
+    height: 20%; /* Bild länge */
     object-fit: cover; /* Bild in slider */
   }
 
   /* Button R / L */
   .carousel-control.left,
   .carousel-control.right {
-    transform: translateY(270%); /* nach oben / unten schieben */
+    transform: translateY(470%); /* nach oben / unten schieben */
       font-size: -10px; /* icons vergrößen */
       height: 80px; /* icons länge */
       width: 50px; /* icons breite */
@@ -124,7 +124,7 @@
   }
 
   .carousel-indicators {
-    top: 450px; /* punkt schieben */
+    top: 800px; /* punkt schieben */
   }
   .Home-p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
