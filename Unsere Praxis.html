@@ -10,15 +10,25 @@
     
     <title>Document</title>
 </head>
-
+<style>
+  .sidebar img.Logo {
+    width: 70%; /* ضبط حجم الشعار */
+    margin-bottom: 250px;
+    padding-left: 25%;
+    padding-top: 15px;
+}
+.contact-section .form-container.zuschtimmen{
+  font-size: 500px;
+}
+</style>
 <body>
     
     <header class="sidebar">
         <div>
-            <img class="Logo" src="doc-logo-2-2021.png" alt="Logo">
+            <img class="Logo" src="Logo (1).png" alt="Logo">
         </div>
         <ul class="menu">
-            <li><a href="">Unsere Praxis</a></li>
+            <li><a style="color: rgb(170, 114, 51);" href="">Unsere Praxis</a></li>
             <li><a href="">Team</a></li>
             <li><a href="">Leistungen </a><spam class="toggle-btn">+</spam>
                 <ul class="submenu">
@@ -72,7 +82,7 @@
       </div>
     </main>
     <br><br><br><br><br><br><br><br><br><br><br><br>
-      <h1 style="padding-left: 900px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">ZAHNARZTPRAXIS AKRAM - Herzlich Willkomen<br><br></h1>
+      <h1 class="titel">ZAHNARZTPRAXIS AKRAM - Herzlich Willkomen<br><br></h1>
 
       <h2 class="Home-p-titel">Ihre familiengeführte Zahnarztpraxis in Dortmund – moderne Zahnheilkunde auf höchstem Niveau</h2>
       <p class="Home-p">
@@ -87,6 +97,27 @@
         <br><br>
         Ahmad Zia Akram – Ihr Zahnarzt in Dortmund
     </p>
+
+    <div class="contact-section">
+      <div class="form-container">
+          <h2>Sprechen Sie uns an!</h2>
+          <p>Haben Sie Fragen zu unseren Leistungen oder möchten einen Termin vereinbaren?</p>
+          <form>
+              <input type="text" name="name" placeholder="Name*" required>
+              <input type="email" name="email" placeholder="E-Mail-Adresse*" required>
+              <input type="tel" name="phone" placeholder="Telefon*" required>
+              <textarea name="message" placeholder="Nachricht*" required></textarea>
+              <div class="checkbox-container">
+                  <input type="checkbox" name="consent" required>
+                  <label class="zuschtimmen">Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden.</label>
+              </div>
+              <button type="submit">Senden</button>
+          </form>
+      </div>
+      <div class="image-container">
+          <img src="kontakt.jpeg" alt="Kontakt Bild">
+      </div>
+  </div>
     
 
 </body>
