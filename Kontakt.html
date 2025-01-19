@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    .sidebar .Logo{
+        max-width: 180px;
+        padding-right: 50px;
+    }
+</style>
+<body>
+    <header class="sidebar">
+        <div>
+            <img class="Logo" src="doc-logo-2-2021.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="">Unsere Praxen</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Leistungen </a><spam class="toggle-btn">+</spam>
+                <ul class="submenu">
+                    <li><a href="">Angstpatienten</a></li>
+                    <li><a href="">Implantate</a></li>
+                    <li><a href="">Parodontitis</a></li>
+                    <li><a href="">Zahnkronen</a></li>
+                    <li><a href="">Kieferorthopädie</a></li>
+                    <li><a href="">Zahnreinigung</a></li>
+                </ul>
+            </li>
+            <li><a style="color: rgb(170, 114, 51);" href="">Kontakt</a></li>
+        </ul>
+
+    </header>
+
+    <script src="script.js"></script>
+
+    <div class="contact-section">
+        <div class="form-container">
+            <h2>Sprechen Sie uns an!</h2>
+            <p>Haben Sie Fragen zu unseren Leistungen oder möchten einen Termin vereinbaren?</p>
+            <form>
+                <input type="text" name="name" placeholder="Name*" required>
+                <input type="email" name="email" placeholder="E-Mail-Adresse*" required>
+                <input type="tel" name="phone" placeholder="Telefon*" required>
+                <textarea name="message" placeholder="Nachricht*" required></textarea>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="consent" required>
+                    <label>Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden.</label>
+                </div>
+                <button type="submit">Senden</button>
+            </form>
+        </div>
+        <div class="image-container">
+            <img src="contact-image.jpg" alt="Kontakt Bild">
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

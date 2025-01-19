@@ -1,0 +1,317 @@
+
+.Logo{
+    padding: 20px;
+    width: 200px;
+}
+
+/* الهيدر الجانبي */
+.sidebar {
+    position: fixed; /* الهيدر ثابت */
+    top: 0;
+    left: 0;
+    width: 250px; /* عرض الهيدر */
+    height: 100%; /* يغطي كامل الصفحة */
+    background-color: rgb(241, 228, 213); /* لون الخلفية */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: hidden; /* يجعل القائمة غير قابلة للتمرير إذا زاد محتواها */
+}
+
+.sidebar img.Logo {
+    width: 100%; /* ضبط حجم الشعار */
+    margin-bottom: 250px;
+}
+
+.menu {
+    
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+    display: flex;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s;
+    display: block;
+}
+
+.menu li a:hover {
+    color: rgba(11, 155, 11, 0.815); /* تغيير اللون عند التمرير */
+}
+
+/* قائمة فرعية */
+.submenu {
+    list-style: none;
+    margin-top: 25px;
+    margin-left: -120px;
+    display: none; /* مخفية افتراضيًا */
+}
+
+.submenu li a {
+    font-size: 16px;
+    color: black;
+}
+
+.submenu li a:hover {
+    color: rgba(11, 155, 11, 0.815);
+}
+
+/* محتوى الصفحة */
+.content {
+    margin-left: 270px; /* يترك مساحة للهيدر الجانبي */
+    padding: 20px;
+}
+
+
+.toggle-btn {
+    cursor: pointer;
+    color: green;
+    font-size: 16px;
+    user-select: none;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.toggle-btn.open {
+    color: red;
+}
+
+
+
+  /* Slider */
+  #carousel-example-generic {
+    width: 100%; /* Slider breite */
+    height: 600px; /* Slider länge */
+    margin-right: 1000;
+    margin: auto; /* slider in der mitte */
+    padding: 20px 0px; /* padding für slider */
+    transform: translate(-20px , -25px);
+  }
+
+  .carousel-inner > .item > img {
+    width: 100%; /* Bild größe */
+    height: 100%; /* Bild länge */
+    object-fit: cover; /* Bild in slider */
+  }
+
+  /* Button R / L */
+  .carousel-control.left,
+  .carousel-control.right {
+    transform: translateY(270%); /* nach oben / unten schieben */
+      font-size: -10px; /* icons vergrößen */
+      height: 80px; /* icons länge */
+      width: 50px; /* icons breite */
+    }
+    
+
+  .carousel-control .glyphicon {
+    font-size: 20px; /* icons R L größe */
+  }
+
+  /* Punkt größe */
+  .carousel-indicators li {
+    width: 9px;
+    height: 9px;
+  }
+
+  .carousel-indicators {
+    top: 450px; /* punkt schieben */
+  }
+  .Home-p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+    font-size: 20px;
+    color: rgba(39, 39, 39, 0.822);
+    width: 1800px;
+    padding-right: 60px;
+    padding-left: 950px;
+    text-align: center;
+  }
+  .Home-p-titel{
+    text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(95, 95, 95);
+    padding-left: 350px;
+    font-size: 20px;
+  }
+  .highlight {
+    font-weight: bold; 
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+.form-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.form-container p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  min-width: 100%;
+  max-height: 300px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.form-container textarea {
+  max-width: 50px;
+  min-height: 140px;
+}
+.form-container .checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.checkbox-container{
+  margin-left:-550px ;
+
+}
+.form-container .checkbox-container input {
+  margin-right: -540px;
+  font-size: 30px;
+}
+.form-container button {
+  background-color: rgb(241, 228, 213);
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.form-container button:hover {
+  background-color: rgb(219, 208, 195);
+}
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+.image-container img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.form-container label{
+  font-size: 18px;
+}.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+.form-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.form-container p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  min-width: 100%;
+  max-height: 300px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.form-container textarea {
+  max-width: 50px;
+  min-height: 140px;
+}
+.form-container .checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.checkbox-container{
+  margin-left:-550px ;
+
+}
+.form-container .checkbox-container input {
+  margin-right: -540px;
+  font-size: 30px;
+}
+.form-container button {
+  background-color: rgb(241, 228, 213);
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.form-container button:hover {
+  background-color: rgb(219, 208, 195);
+}
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+.image-container img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.form-container label{
+  font-size: 18px;
+}

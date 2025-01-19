@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .contact-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .form-container {
+            flex: 1;
+            padding: 20px;
+        }
+        .form-container h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .form-container p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-container input,
+        .form-container select,
+        .form-container textarea {
+            min-width: 100%;
+            max-height: 300px;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .form-container textarea {
+            max-width: 50px;
+            min-height: 140px;
+        }
+        .form-container .checkbox-container {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .checkbox-container{
+            margin-left:-550px ;
+
+        }
+        .form-container .checkbox-container input {
+            margin-right: -540px;
+            font-size: 30px;
+        }
+        .form-container button {
+            background-color: rgb(241, 228, 213);
+            color: black;
+            font-size: 16px;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .form-container button:hover {
+            background-color: rgb(219, 208, 195);
+        }
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .form-container label{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-section">
+    <div class="form-container">
+        <h2>Sprechen Sie uns an!</h2>
+        <p>Haben Sie Fragen zu unseren Leistungen oder möchten einen Termin vereinbaren?</p>
+        <form>
+            <input type="text" name="name" placeholder="Name*" required>
+            <input type="email" name="email" placeholder="E-Mail-Adresse*" required>
+            <input type="tel" name="phone" placeholder="Telefon*" required>
+            <textarea name="message" placeholder="Nachricht*" required></textarea>
+            <div class="checkbox-container">
+                <input type="checkbox" name="consent" required>
+                <label>Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden.</label>
+            </div>
+            <button type="submit">Senden</button>
+        </form>
+    </div>
+    <div class="image-container">
+        <img src="contact-image.jpg" alt="Kontakt Bild">
+    </div>
+</div>
+
+</body>
+</html>
