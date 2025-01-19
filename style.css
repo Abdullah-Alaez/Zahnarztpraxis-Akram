@@ -137,11 +137,20 @@
   .highlight {
     font-weight: bold; 
 }
+.kontakt-titel{
+  font-size: 50px;
+  padding-left: 1100px;
+}
+.kontakt-daten{
+  font-size: 38px;
+  padding-left: 1000px;
+}
+
 .contact-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*max-width: 1200px;*/
+  max-width: 1200px;
   margin: 50px auto;
   padding: 20px;
   background-color: white;
@@ -222,8 +231,9 @@
   border-radius: 8px;
 }
 .form-container label{
-  font-size: 18px;
-}.contact-section {
+  font-size: 38px;
+}
+.contact-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
