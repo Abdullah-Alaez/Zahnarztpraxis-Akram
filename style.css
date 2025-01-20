@@ -74,6 +74,70 @@
 .toggle-btn.open {
     color: red;
 }
+.Termin-btn{
+    background-color: rgb(241, 228, 213);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(184, 174, 162, 0.411);
+  }
+  .Termin-btn:hover {
+    background-color: rgb(184, 171, 155);
+  }
+  .Termin-btn-1{
+    background-color: rgb(241, 228, 213);
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 1000px;
+    margin-top: 20px;
+  }
+  .Termin-btn-1:hover {
+    background-color: rgb(219, 208, 195);
+  }
+  .Termin-btn-2{
+    background-color: rgb(241, 228, 213);
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 1000px;
+    margin-top: 20px;
+  }
+  .Termin-btn-2:hover {
+    background-color: rgb(219, 208, 195);
+  }
+  .Termin-btn-3{
+    background-color: rgb(241, 228, 213);
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 1000px;
+    margin-top: 20px;
+  }
+  .Termin-btn-3:hover {
+    background-color: rgb(219, 208, 195);
+  }
+  .Termin-btn-4{
+    background-color: rgb(241, 228, 213);
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border
+}
 
 
 
