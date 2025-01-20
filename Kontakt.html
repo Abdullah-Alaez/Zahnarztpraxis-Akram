@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <style>
     .sidebar img.Logo {
-      width: 40%; /* ضبط حجم الشعار */
-      margin-bottom: 250px;
-      padding-left: 25%;
-      padding-top: 15px;
-  }
+    width: 70%; /* ضبط حجم الشعار */
+    margin-bottom: 250px;
+    padding-left: 25%;
+    padding-top: 15px;
+}.
   </style>
 <body>
     <header class="sidebar">
@@ -34,15 +38,53 @@
             </li>
             <li><a style="color: rgb(170, 114, 51);" href="">Kontakt</a></li>
         </ul>
+        <div style="margin-top: 350px; color: #000;">
+          <i class="fas regular fa-clock"></i>
+          Mo-Di-Do &nbsp; 08:30–12:00<br><span style="padding-left: 89px;"> 14:00–17:00</span>
+          <br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mi  <span style="padding-left: 48px;"> 08:30–12:00</span>
+          <br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fr  <span style="padding-left: 50px;"> 08:30–12:00<br><span style="padding-left: 90px;"> 14:00–15:00</span>
+      </div>
+      <div style="color: #000;"><br>
+          <i class="fas solid fa-phone"></i>
+          &nbsp;&nbsp; 0231 81 8027
+      </div>
+      <div style="color: #000;"><br>
+          <i class="fas solid fa-envelope"></i>
+          &nbsp;&nbsp; info@Akram.de
+      </div>
 
     </header>
 
     <section>
 
     </section>
-    <h3 class="kontakt-titel">Praxis Dr. Akram</h3>
+    <h3 class="kontakt-titel"></h3>
     
+    <div class="container">
+        <h1 class="h1">Praxis Dr. Akram</h1>
 
+        <div class="info">
+            <h2>Termin vereinbaren</h2>
+            <div class="separator"></div>
+            <p>Telefon: <a href="tel:0231818027">0231 81 8027</a></p>
+        </div>
+         
+        <div class="info">
+            <h2>Besuchen Sie uns</h2>
+            <div class="separator"></div>
+            <p>Münsterstraße 45, 44145 Dortmund</p>
+        </div>
+
+        <div class="map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.551664233824!2d7.4623760777889885!3d51.52144077181632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b919fce66f5a85%3A0xce1d16b0184fc092!2sHerr%20Ahmad%20Zia%20Akram!5e0!3m2!1sde!2sde!4v1737402669018!5m2!1sde!2sde"
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 
@@ -67,6 +109,38 @@
         </div>
     </div>
     <script src="script.js"></script>
+
+    <section>
+        <footer>
+          <div class="footer">
+              <h3 class="footer-titel">Praxis Dr. Akram</h3>
+    
+          <div class="main-footer">
+            <div class="footer-content-1">
+              <h3><i class="fas solid fa-phone"></i> &nbsp;Kontakt & Anschrift</h3>
+              <p>0231 81 8027</p>
+              <p>info@Akram.de
+              <p>Münsterstraße 45, 44145 Dortmund</p>
+            </div>
+    
+            <div class="footer-content">
+              <h3><i class="fas regular fa-clock"></i>&nbsp; Öffnungszeiten</h3>
+              <p>Mo-Di-Do: 08:30–12:00, 14:00–17:00</p>
+              <p>Mi: 08:30–12:00</p>
+              <p>Fr: 08:30–12:00, 14:00–15:00</p>
+            </div>
+          </div>
+          
+        </footer>
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="Kontakt.html">KONTAKT</a>
+          <a href="">IMPRESSUM</a>
+          <a href="">DATENSCHUTZ</a>
+        </div>
+            &copy; 2025 Praxis Dr. Akram
+      </div>
+      </section>
 
     
 </body>
