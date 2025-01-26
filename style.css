@@ -11,12 +11,7 @@
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     overflow-y: hidden; /* يجعل القائمة غير قابلة للتمرير إذا زاد محتواها */
 }
-.sidebar img.Logo {
-  width: 80%; /* ضبط حجم الشعار */
-  margin-bottom: 250px;
-  padding-left: 16%;
-  padding-top: 10px;
-}
+
 
 
 .menu {
